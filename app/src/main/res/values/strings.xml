@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Vocabpedia</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="word">Word Name</string>
+
+    <string name="meaning">Meaning</string>
+    <string name="sentence1">Sentence 1</string>
+    <string name="sentence2">Sentence 2</string>
+    <string name="sentence3">Sentence 3</string>
+    <string name="sentence4">Sentence 4</string>
+    <string name="sentence5">Sentence 5</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+
+</resources>

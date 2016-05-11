@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/word"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/edtmeaning"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/meaning"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/edtsen1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/sentence1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/edtsen2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/sentence2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/edtsen3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/sentence3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/edtsen4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/sentence4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+            <EditText
+                android:id="@+id/edtsen5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt_txt_shape"
+                android:gravity="center"
+                android:hint="@string/sentence5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"></EditText>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/laysave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/btn_shape"
+            android:text="@string/save"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight=".5"
+            android:background="@drawable/btn_shape"
+            android:text="@string/cancel"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</RelativeLayout>
